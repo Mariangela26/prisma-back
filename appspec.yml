@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/centos/hensallcrm-api
+    destination: /home/c2-user/nube/Mariangela/prisma-back
     overwrite: true
 hooks:
   ApplicationStart:
-    - location: scripts/flask.sh
+    - location: script/flask.sh
       timeout: 3600
